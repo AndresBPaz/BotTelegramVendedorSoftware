@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "OpenAiCollection",
+    "dateExported": "2023-06-02T03:44:59.143Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6a0800e0-109b-4651-b3fd-78db4bab8708",
+            "colId": "7e5b1bfd-b935-4596-96f7-718e0165a740",
+            "containerId": "",
+            "name": "Modelos",
+            "url": "https://api.openai.com/v1/models",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-02T03:44:20.466Z",
+            "modified": "2023-06-02T03:44:20.466Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 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"
+                },
+                {
+                    "name": "OpenAI-Organization",
+                    "value": "org-i8we3D9LIqf2uoWkXKd7iQoi"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0458ffff-0a76-43ab-ab99-8e0f21c6e584",
+            "colId": "7e5b1bfd-b935-4596-96f7-718e0165a740",
+            "containerId": "",
+            "name": "Completions",
+            "url": "https://api.openai.com/v1/completions",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-02T03:44:44.924Z",
+            "modified": "2023-06-02T03:44:44.924Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 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"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"model\": \"gpt-3.5-turbo-0301\",\r\n  \"prompt\": \"Write a limmerick about APIs\",\r\n  \"max_tokens\": 50\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
